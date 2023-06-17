@@ -1,5 +1,5 @@
 /*universal styles*/
-body {
+header, body {
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
@@ -15,15 +15,35 @@ h1,h2,h3,h4,h5,h6 {
 font-family: Dela Gothic One;
 }
 
+.list-button {
+    border: 10px solid #639B6D;
+    background-color: #639B6D;
+    border-radius: 12px;
+    padding: 11px 18px;
+    gap: 10px;
+    width: 90px;
+    height: 36px;
+    background-color: #639B6D;
+    margin-top: 10px;
+}
+
 .navButton {
+    display: flex;
+    align-items: center;
     font-family: Montserrat, sans-serif;
-    background: #639B6D;
-    border-radius: 100px;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    letter-spacing: -0.04em;
+    white-space: nowrap;
+}
+
+.navButton:hover {
+    color: #FFFFFF;
 }
 
 .navHeading {
