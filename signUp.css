@@ -6,15 +6,12 @@ main {
 }
 
 .intro {
-    height: 38px;
-    width: 1099px;
-    left: 452px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',Poppins, sans-serif;
     text-align: center;
 }
 
 .card-title {
-    font-family: 'Poppins';
+    font-family: 'Poppins', Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -22,7 +19,7 @@ main {
 }
 
 .card-text {
-    font-family: 'Poppins';
+    font-family: 'Poppins', Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -34,4 +31,8 @@ main {
     border-radius: 70px ;
     width: 449px;
     height: 156px;
+}
+
+.main-content {
+    padding-left: 80px;
 }
