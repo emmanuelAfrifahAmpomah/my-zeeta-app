@@ -1,0 +1,72 @@
+/*universal styles*/
+body {
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* CSS For Navbar */
+
+button, p {
+    font-family: Montserrat, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family: Dela Gothic One;
+}
+
+.navButton {
+    font-family: Montserrat, sans-serif;
+    background: #639B6D;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.navHeading {
+    margin-left: -670px;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.8609px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+
+.navline {
+    border-bottom: 2px solid #a7a7a7;
+}
+
+/* CSS For Main */
+
+main {
+    padding-top: 40px;
+}
+
+.p-1{
+    width: 375px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.14em;
+    color: #2B788B;
+    white-space: nowrap;
+}
+
+.h1-1 {
+    width: 531px;
+    height: 268px;
+    /* Headings/Heading 1 */
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
