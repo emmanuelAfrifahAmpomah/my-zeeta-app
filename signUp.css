@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    height: 38px;
+    width: 1099px;
+    left: 452px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* .intro-2 {
+    text-align: center;
+} */
