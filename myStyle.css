@@ -27,13 +27,13 @@ font-family: Dela Gothic One;
 }
 
 .navHeading {
-    margin-left: -670px;
     font-family: 'Dela Gothic One';
     font-style: normal;
     font-weight: 400;
     font-size: 20.8609px;
     line-height: 100%;
     letter-spacing: -0.02em;
+    padding-top: 40px;
 }
 
 .navline {
@@ -46,7 +46,7 @@ main {
     padding-top: 40px;
 }
 
-.p-1{
+.pa-1{
     width: 375px;
     height: 16px;
     font-style: normal;
@@ -69,4 +69,17 @@ main {
     line-height: 120%;
     letter-spacing: -0.04em;
     color: #000000;
+}
+
+.pa-2 {
+    width: 396.89px;
+    height: 50px;
+    /* Text/Body 1 */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
 }
