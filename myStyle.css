@@ -37,13 +37,18 @@ font-family: Dela Gothic One;
 }
 
 .navline {
-    border-bottom: 2px solid #a7a7a7;
+    border-bottom: 2px solid #ebe9e9;
 }
 
 /* CSS For Main */
 
 main {
     padding-top: 40px;
+}
+
+.left-right {
+    display: flex;
+    flex-direction: row;
 }
 
 .pa-1{
@@ -82,4 +87,55 @@ main {
     line-height: 140%;
     letter-spacing: -0.04em;
     color: #757575;
+}
+
+.img-1 {
+    height: 36.42521667480469px;
+    width: 144.22421264648438px;
+    padding-left: 10px;
+}
+
+.nums{
+    display: flex;
+    flex-direction: column;
+}
+
+.nums2 {
+    padding-left: 120px;
+}
+
+.img-2 {
+    position: absolute;
+    left: 580.5px;
+    top: 380px;
+    width: 123px;
+    height: 131px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-2-1 {
+    position: absolute;
+    width: 520.73px;
+    height: 435.28px;
+    left: 610.9px;
+    top: 198px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.img-2-2 {
+    position: absolute;
+    left: 900.9px;
+    top: 210px;
+    height: 490px;
+    width: 350px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
