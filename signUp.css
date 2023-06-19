@@ -6,8 +6,13 @@ main {
 }
 
 .intro {
-    font-family: 'Poppins',Poppins, sans-serif;
+    font-family: 'Delius', sans-serif;
     text-align: center;
+    font-family: Delius;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.04em;
 }
 
 .card-title {
@@ -41,24 +46,6 @@ main {
     height: 34px;
     background: #FFFFFF;
 }
-
-/* #radio-1 {
-    position: relative;
-    top: 14px;
-    left: 15px;
-}
-
-#radio-2 {
-    position: relative;
-    top: 14px;
-    left: 15px;
-}
-
-#radio-3 {
-    position: relative;
-    top: 14px;
-    left: 18px;
-} */
 
 .main-content {
     padding-left: 80px;
