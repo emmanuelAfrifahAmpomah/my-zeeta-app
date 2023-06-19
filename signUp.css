@@ -27,11 +27,38 @@ main {
 }
 
 .card-border {
-    border: 5px, solid;
-    border-radius: 70px ;
-    width: 449px;
+    border: 1px hidden;
     height: 156px;
+    width: 449px;
+    border-radius: 20px;    
 }
+
+.radioBut {
+    position: relative;
+    top: 14px;
+    left: 15px;
+    width: 34px;
+    height: 34px;
+    background: #FFFFFF;
+}
+
+/* #radio-1 {
+    position: relative;
+    top: 14px;
+    left: 15px;
+}
+
+#radio-2 {
+    position: relative;
+    top: 14px;
+    left: 15px;
+}
+
+#radio-3 {
+    position: relative;
+    top: 14px;
+    left: 18px;
+} */
 
 .main-content {
     padding-left: 80px;
